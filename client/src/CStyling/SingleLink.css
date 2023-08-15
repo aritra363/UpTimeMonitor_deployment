@@ -1,0 +1,40 @@
+.card {
+  margin-bottom: 30px !important;
+}
+.bin-01 {
+  box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
+  transition: all 0.3s;
+}
+@keyframes shake-bin-01 {
+  0% {
+    transform: translate(-1px, -2px);
+  }
+  33% {
+    transform: translate(-1px, -2px);
+  }
+  66% {
+    transform: translate(-1px, -3px);
+  }
+  100% {
+    transform: translate(-1px, -3px);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.bin-01:hover {
+  cursor: pointer;
+  animation: shake-bin-01 0.1s infinite alternate;
+  box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+  transform: scale(1.03);
+}
+.bin-01:active {
+  animation: rotation 0.25s infinite linear;
+  box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+  transform: scale(0.98);
+}

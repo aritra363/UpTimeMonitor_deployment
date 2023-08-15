@@ -1,0 +1,10 @@
+.effect {
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.effect:active {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1 !important ;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1 !important;
+  box-shadow: inset 0px 0px 5px #c1c1c1 !important;
+  outline: none !important;
+}

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "SET NODE_ENV=staging&&nodemon index",
+    "production": "SET NODE_ENV=production&&nodemon index",
+    "build" : "npm i",
+    "nmon" : "npm i nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "twilio": "^3.83.3"
+  }
+}

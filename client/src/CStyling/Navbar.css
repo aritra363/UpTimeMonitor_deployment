@@ -1,0 +1,17 @@
+.custom-style {
+  background-color: #f5a9c9 !important;
+  z-index: 700;
+}
+.navlink {
+  color: #fefefe !important;
+  font-size: 20px !important;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.navlink:hover {
+  text-shadow: 1px 1px grey;
+  font-size: 22px !important;
+}
+.active {
+  border-bottom: 4px solid #fefefe;
+}

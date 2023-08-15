@@ -1,0 +1,16 @@
+body {
+  background-color: #ebebeb;
+}
+.my-bg {
+  background-color: #faf9f6;
+}
+.btn {
+  background-color: #a9a9a9 !important;
+}
+.btn:hover {
+  background-color: #808080 !important;
+}
+.Warnings {
+  color: red;
+  text-align: center;
+}
